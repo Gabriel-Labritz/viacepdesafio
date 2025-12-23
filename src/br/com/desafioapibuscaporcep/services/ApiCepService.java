@@ -23,11 +23,11 @@ public class ApiCepService {
                 throw new CepFormatException("O formato do cep fornecido é inválido");
             }
 
-            HttpClient client = HttpClient.newHttpClient();
             HttpRequest req = HttpRequest.newBuilder()
                     .uri(URI.create(baseUrl))
                     .build();
-            HttpResponse<String> res = client.send(req, HttpResponse.BodyHandlers.ofString());
+            HttpResponse<String> res = HttpClient.newHttpClient()
+                    .send(req, HttpResponse.BodyHandlers.ofString());
             String json = res.body();
 
             Gson gson = new Gson();
