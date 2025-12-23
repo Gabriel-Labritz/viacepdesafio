@@ -13,9 +13,9 @@ Este desafio foi construído utilizando conceitos importantes da orientação a 
 
 ## Funcionalidades da aplicação ⚙
 
-- 🖐 **Usuário informa um cep.
-- 💻 **O backend se conecta na API da via cep.
-- 💵 **Retorna os dados e salva em arquivo em formato JSON.
+- 🖐 **Usuário informa um cep**.
+- 💻 **O backend se conecta na API da via cep**.
+- 💵 **Retorna os dados e salva em arquivo em formato JSON**.
 
 ## Ferramentas utilizadas 🛠
 
