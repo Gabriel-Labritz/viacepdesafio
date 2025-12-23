@@ -5,7 +5,7 @@
 Este desafio foi construído utilizando conceitos importantes da orientação a objeto, e com foco em práticar conceitos como:
 
 - **Consumo de serviços**.
-- **Converção de json para objeto Java e Objeto Java para Json utilizando a biblioteca Gson**.
+- **Converção de json para objeto Java e objeto Java para json utilizando a biblioteca Gson**.
 - **Exceptions**
 - **Records**
 - **Estruturação e organização:**
